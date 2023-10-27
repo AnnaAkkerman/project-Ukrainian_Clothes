@@ -1,21 +1,130 @@
-.header {
-  padding: 20px 0;
-}
-
-.nav-list {
+.header-container {
+  width: 100%;
+  padding: 20px 20px;
+  padding-bottom: 0;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.header-logo-img {
+  width: 44px;
+  height: 39px;
+  margin-right: 87px;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.header-nav-list,
+.header-phone-container {
+  display: none;
+}
+
+.header-social-list {
+  display: flex;
+  gap: 12px;
+  margin-right: 12px;
+}
+
+.social-link-container {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  padding: 8px;
+}
+
+.social-link-container:hover,
+.social-link-container:focus {
+  background-color: transparent;
+  border-color: #ecd979;
+  transition-duration: 0.5s;
+}
+
+.menu-open-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    padding: 20px 32px;
+    padding-bottom: 0;
+  }
+  .header-logo-img {
+    margin-right: 440px;
+  }
+
+  .header-social-list {
+    margin-right: 20px;
+  }
+
+  .menu-open-btn,
+  .menu-open-icon {
+    width: 44px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-container {
+    padding: 20px 100px;
+    padding-bottom: 0;
+  }
+
+  .header-logo-img {
+    margin-right: 60px;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.3;
+    margin-right: 129px;
+  }
+
+  .header-address {
+    display: flex;
+  }
+
+  .header-nav-item:hover,
+  .header-nav-item:focus {
+    color: #ecd979;
+    transition-duration: 0.5s;
+  }
+
+  .header-phone-container {
+    padding: 14px 28px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    display: block;
+    margin-right: 20px;
+    font-style: normal;
+  }
+
+  .header-phone-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.4;
+  }
+
+  .header-social-list {
+    margin-right: 0;
+  }
+
+  .menu-open-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-nav-list {
+    margin-right: 289px;
+  }
 }
