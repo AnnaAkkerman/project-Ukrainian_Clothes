@@ -48,6 +48,7 @@
   line-height: normal;
   color: rgba(252, 249, 249, 0.4);
   text-align: center;
+  letter-spacing: -0.15px;
   @media screen and (max-width: 767px) {
     font-size: 14px;
   }
