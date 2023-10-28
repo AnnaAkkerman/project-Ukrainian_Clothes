@@ -1,0 +1,9 @@
+.about-us-section {
+  background-image: url(../img/about/elements.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.about-us-container {
+  padding: 80px 20px;
+}
