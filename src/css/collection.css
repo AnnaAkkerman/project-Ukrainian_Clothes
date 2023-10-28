@@ -14,10 +14,9 @@
 .text-style{
     font-size: 14px;
     line-height: 1;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.05em;
 }
 .collection-list-header{
-    overflow: hidden;
     color: #FCF9F9;
     text-overflow: ellipsis;
     font-style: normal;
@@ -40,6 +39,9 @@
 .collection-list-text{
     padding-top: 18px;
 }
+.list-header-points{
+    display: none;
+}
 /* .collection .collection-list-item:first-child{
     background-image: url("../img/collection-img/mobile-collection-bg.png"); 
     background-size: 177px 199px;
@@ -55,18 +57,29 @@
     @media screen and (min-width: 768px) {
         .collection-container{
             max-width: 704px;
-            margin: 0 auto;
-            padding: 0 12px;
         }
-        .collection-list {
-            /* flex-direction: row;
-            row-gap: 20px;
-            flex-wrap: wrap; */
+        .header-collection{
+        font-size: 44px;
+        line-height: 1.45;
+        letter-spacing: -0.03em;
         }
         .collection-list-item {
             flex-basis: calc((100% - 20px) / 2);
         }
-        /* .collection-list-text{
-        width: 100%;
-        } */
+        .text-style{
+            font-size: 18px;
+        }
+        .collection-list-item:first-child .collection-list-header{
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            /* -webkit-line-clamp: 1; */
+            /* -webkit-box-orient: vertical;   */
+            max-width: 342px;
+        }
+        .collection-list-item:first-child .collection-list-header{
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1439px) {
+        
     }
