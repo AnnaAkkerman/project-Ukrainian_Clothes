@@ -85,6 +85,9 @@
   .testimonials {
     padding: 100px 32px 100px 32px;
   }
+  .testimonial-list-item:nth-child(1) .description {
+    letter-spacing: -0.16px;
+  }
 }
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
   .item-container {
