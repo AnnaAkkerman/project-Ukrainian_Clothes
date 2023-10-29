@@ -1,13 +1,13 @@
 .testimonials {
-  padding: 80px 20px 80px 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .section-title {
   margin-bottom: 64px;
   font-size: 32px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 1.45;
-  letter-spacing: -1.32px;
+  line-height: 1.375;
+  letter-spacing: -0.03em;
 }
 .item-title {
   margin-top: 54px;
@@ -18,13 +18,12 @@
 }
 .description {
   margin-top: 8px;
+  width: 291px;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: rgba(252, 249, 249, 0.4);
   text-align: center;
-  letter-spacing: -0.15px;
 }
 .testimonial-list-item {
   position: relative;
@@ -43,7 +42,6 @@
 .testimonial-list {
   display: flex;
   justify-content: center;
-  gap: 0px;
 }
 @media screen and (max-width: 1279px) {
   .testimonial-list-item:nth-child(3) {
@@ -58,12 +56,12 @@
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .testimonial-list-item {
     flex-basis: 335px;
-    height: 243px;
   }
 }
 @media screen and (min-width: 768px) {
   .section-title {
     font-size: 44px;
+    line-height: 1.4545;
   }
   .description {
     font-size: 16px;
@@ -71,17 +69,17 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .testimonials {
-    padding: 100px 32px 100px 32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .testimonial-list-item {
     flex-basis: calc((100% - 32px) / 2);
-    height: 286px;
-  }
-  .testimonial-list-item:nth-child(1) .description {
-    letter-spacing: -0.16px;
   }
   .testimonial-list {
     gap: 32px;
+  }
+  .description {
+    width: 300px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -89,17 +87,17 @@
     padding: 150px 100px 150px 100px;
   }
   .testimonial-list-item {
-    height: 285px;
-  }
-  .testimonial-list-item {
-    flex-basis: calc((100% - 26px) / 3);
+    flex-basis: calc((100% - 52px) / 3);
   }
   .testimonial-list {
     gap: 26px;
   }
+  .description {
+    width: 307px;
+  }
 }
 @media screen and (min-width: 1440px) {
-  .testimonial-list-item {
-    height: 264px;
+  .description {
+    width: 360px;
   }
 }
