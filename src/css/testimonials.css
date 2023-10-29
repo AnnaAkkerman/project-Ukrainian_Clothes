@@ -6,7 +6,7 @@
   margin-bottom: 64px;
   font-size: 32px;
   font-weight: 500;
-  line-height: 1.375;
+  line-height: 1.38;
   letter-spacing: -0.03em;
 }
 .item-title {
@@ -55,13 +55,13 @@
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .testimonial-list-item {
-    flex-basis: 335px;
+    flex-basis: 337px;
   }
 }
 @media screen and (min-width: 768px) {
   .section-title {
     font-size: 44px;
-    line-height: 1.4545;
+    line-height: 1.45;
   }
   .description {
     font-size: 16px;
@@ -84,7 +84,8 @@
 }
 @media screen and (min-width: 1280px) {
   .testimonials {
-    padding: 150px 100px 150px 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
   .testimonial-list-item {
     flex-basis: calc((100% - 52px) / 3);
