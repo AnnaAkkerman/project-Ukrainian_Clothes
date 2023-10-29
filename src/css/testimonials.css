@@ -1,8 +1,9 @@
 .testimonials {
-  padding-top: 80px;
+  padding: 80px 20px 80px 20px;
 }
 .section-title {
-  font-size: 44px;
+  margin-bottom: 64px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.45;
@@ -17,7 +18,7 @@
 }
 .description {
   margin-top: 8px;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -25,9 +26,8 @@
   text-align: center;
   letter-spacing: -0.15px;
 }
-.item-container {
+.testimonial-list-item {
   position: relative;
-  margin-top: 64px;
   padding: 0 18px 18px 18px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   border-radius: 4px;
@@ -43,7 +43,7 @@
 .testimonial-list {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  gap: 0px;
 }
 @media screen and (max-width: 1279px) {
   .testimonial-list-item:nth-child(3) {
@@ -51,61 +51,55 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .testimonials {
-    padding: 80px 20px 80px 20px;
-  }
-  .section-title {
-    font-size: 32px;
-  }
-  .testimonial-list {
-    gap: 0px;
-  }
   .testimonial-list-item:nth-child(2) {
     display: none;
   }
-  .description {
-    font-size: 14px;
-  }
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
-  .item-container {
-    width: 335px;
+  .testimonial-list-item {
+    flex-basis: 335px;
     height: 243px;
   }
 }
-
+@media screen and (min-width: 768px) {
+  .section-title {
+    font-size: 44px;
+  }
+  .description {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .testimonial-list {
-    gap: 32px;
-  }
-  .item-container {
-    width: 336px;
-    height: 286px;
-  }
   .testimonials {
     padding: 100px 32px 100px 32px;
+  }
+  .testimonial-list-item {
+    flex-basis: calc((100% - 32px) / 2);
+    height: 286px;
   }
   .testimonial-list-item:nth-child(1) .description {
     letter-spacing: -0.16px;
   }
-}
-@media screen and (min-width: 1280px) and (max-width: 1439px) {
-  .item-container {
-    width: 342px;
-    height: 285px;
+  .testimonial-list {
+    gap: 32px;
   }
 }
 @media screen and (min-width: 1280px) {
   .testimonials {
     padding: 150px 100px 150px 100px;
   }
+  .testimonial-list-item {
+    height: 285px;
+  }
+  .testimonial-list-item {
+    flex-basis: calc((100% - 26px) / 3);
+  }
   .testimonial-list {
     gap: 26px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .item-container {
-    width: 396px;
+  .testimonial-list-item {
     height: 264px;
   }
 }
