@@ -80,8 +80,9 @@
             overflow: hidden; */
             white-space: nowrap;
             overflow: hidden;
-            overflow-wrap: break-word;
-            width: 342px; 
+            /* overflow-wrap: break-word; */
+            width: 342px;
+            text-overflow: ellipsis; 
             /* -webkit-line-clamp: 1; */
             
         } 
