@@ -1,25 +1,94 @@
-<div class="container">
-  <section class="hero">
-    <h1 class="hero-title">
-      Reviving the traditional
-      <span class="hero-title-item">Ukrainian</span> artistry in every stitch.
-    </h1>
-    <div class="hero-link-container">
-      <a class="hero-link" href=""
-        ><p>Order</p>
-        <svg class="link-icon" width="26" height="10">
-          <use href="../img/hero-img/icon.svg#icon-arrow"></use>
-        </svg>
-      </a>
-    </div>
+<section class="hero">
+  <div class="container">
+    <div class="hero-cotainer">
+      <div class="title-container">
+        <h1 class="hero-title">
+          Reviving the traditional
+          <span class="hero-title-item">Ukrainian</span> artistry in every
+          stitch.
+        </h1>
+        <div class="hero-link-container">
+          <a class="hero-link" href="#order"
+            ><p>Order</p>
+            <svg class="link-icon" width="26" height="10">
+              <use href="./img/hero-img/icon.svg#icon-arrow"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <picture>
+        <source
+          srcset="
+            ./img/hero-img/girl-desktop-1x.jpg 1x,
+            ./img/hero-img/girl-desktop-2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
 
-    <img
-      class="hero-picture"
-      srcset="../img/hero-img/girl-1x.jpg 1x, ../img/hero-img/girl-2x.jpg 2x"
-      src="../img/hero-img/girl-1x.jpg"
-      alt="girl"
-      width="335"
-      height="545"
-    />
-  </section>
-</div>
+        <source
+          srcset="
+            ./img/hero-img/girl-tab-1x.jpg 1x,
+            ./img/hero-img/girl-tab-2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="
+            ./img/hero-img/girl-mob-1x.jpg 1x,
+            ./img/hero-img/girl-mob-2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+
+        <img
+          class="hero-picture"
+          src="./img/hero-img/girl-mob-1x.jpg"
+          alt="girl"
+          width="413"
+          height="575"
+        />
+      </picture>
+
+      <div class="star-container">
+        <svg class="star-icon" width="52" height="51">
+          <use href="./img/hero-img/icon.svg#icon-Star"></use>
+        </svg>
+        <p class="star-text">all embroidery is made by hand</p>
+      </div>
+      <picture>
+        <source
+          srcset="
+            ./img/hero-img/img-map-1x-desktopfull.jpg 1x,
+            ./img/hero-img/img-map-2x-desktopfull.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+
+        <source
+          srcset="
+            ./img/hero-img/img-map-1x-desktop.jpg 1x,
+            ./img/hero-img/img-map-2x-desktop.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+
+        <source
+          srcset="
+            ./img/hero-img/img-map-1x-tab.jpg 1x,
+            ./img/hero-img/img-map-2x-tab.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+
+        <img
+          class="map-img"
+          src="./img/hero-img/img-map-1x-tab.jpg"
+          alt="map"
+          width="157"
+          height="191"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
