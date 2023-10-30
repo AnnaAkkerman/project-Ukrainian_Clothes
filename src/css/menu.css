@@ -1,0 +1,130 @@
+.mob-menu {
+    width: 274px;
+    height: 812px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ECD979;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.mob-menu {
+    background-image: url(../img/menu/mob-ornament.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    padding: 20px 20px 0px 20px;
+    margin-bottom: 186px;
+}
+
+
+.phone-container {
+
+    width: 158px;
+    height: 38px;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(28, 34, 37, 0.10);
+   
+
+}
+
+.phone-container:hover,
+.phone-container:focus {
+    border: 1px solid  #ECD979;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.phone-link {
+    width: 118px;
+    height: 14px;
+    display: flex;
+    color: #1C2225;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.menu-close-btn {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    
+    background-color: #ECD979;
+   
+
+}
+
+.menu-btn-icon {
+    width: 36px;
+    height: 36px;
+    fill: #1C2225;
+}
+
+.mob-menu-list {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.mob-menu-item {
+    color: #1C2225;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+
+}
+
+.mob-menu-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 380px) {
+    .mob-menu {
+            width: 380px;
+            height: 1024px;
+            
+            
+        }
+    .mob-menu {
+            background-image: url(../img/menu/tablet-ornament.png);
+            background-repeat: no-repeat;
+            background-position: bottom;
+                }
+
+    .container {
+            display: flex;
+            gap: 79px;
+            padding: 20px 32px 0px 32px;
+            margin-bottom: 223px;
+                                }
+    .phone-container {
+    
+            width: 158px;
+            height: 38px;
+            padding: 12px 20px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 15px;
+            border: 1px solid rgba(28, 34, 37, 0.10);
+    
+    
+        }
+         
+
+}
