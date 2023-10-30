@@ -42,18 +42,17 @@
     white-space: nowrap;
     width: 335px;
 }
-
 @media not screen and (min-width: 1440px) {
     .collection-list-item:first-child .collection-list-header{
         overflow: hidden;
         text-overflow: ellipsis;
-    } 
-    
+    }   
 }
 .collection-section {
     background-image: url("../img/collection-img/mobile-collection-bg.png"); 
     background-position: 0px 316px;
     background-repeat: no-repeat;
+    background-size: 199px 177px;
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -84,8 +83,8 @@
         }
         .collection-section {
             background-image: url("../img/collection-img/tab-collection-bg.png"); 
-            background-position: 0px 316px;
-            background-repeat: no-repeat;
+            padding: 0px 0.453px 0.334px 0px;
+            background-size: 338px 300px;
         }
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -95,21 +94,12 @@
             }
         }
     }
-        /* .collection-list-item:first-child .collection-list-header{
-            white-space: nowrap;
-            overflow: hidden;
-            max-width: 342px;
-            text-overflow: ellipsis; 
-        }  */
-        
     @media screen and (min-width: 1280px) and (max-width: 1439px){ 
         .collection-container{
             padding-top: 70px;
             padding-right: 98px;
         }
     } 
-    
-    
     @media screen and (min-width: 1280px){
         .collection-list-item:first-child .collection-list-header{
             width: 345px;
@@ -136,7 +126,6 @@
             }
         }
     }
-
     @media screen and (min-width: 1400px){
         .collection-section {
             background-image: url("../img/collection-img/desc-1440-collection-bg.png"); 
@@ -150,9 +139,4 @@
                 background-image: url("../img/collection-img/desc-1440-collection-bg@2x.png"); 
             }
         }
-        .collection-list-item:first-child .collection-list-header {
-            /* width: 376px; */
-            /* white-space: nowrap; */
-        } 
-
     }
