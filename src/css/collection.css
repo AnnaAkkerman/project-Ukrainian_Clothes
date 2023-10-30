@@ -1,6 +1,5 @@
 .collection-container{
-    /* max-width: 335px; */
-    margin: 0 auto;
+
 }
 .header-collection{
     text-align: center;
@@ -18,13 +17,12 @@
 }
 .collection-list-header{
     color: #FCF9F9;
-    text-overflow: ellipsis;
     font-style: normal;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 8px;
 }
-.text-content{
+.text-content {
     color: rgba(252, 249, 249, 0.40);
     font-weight: 400;
 }
@@ -39,8 +37,8 @@
 .collection-list-text{
     padding-top: 18px;
 }
-.list-header-points{
-    display: none;
+.collection-list {
+
 }
 /* .collection .collection-list-item:first-child{
     background-image: url("../img/collection-img/mobile-collection-bg.png"); 
@@ -70,32 +68,34 @@
             font-size: 18px;
         }
         .collection-list-item:first-child .collection-list-header{
-            
-    
-            /*;
-            -webkit-box-orient: vertical;    */
-/* 
-            word-wrap: break-word;
-        
-            overflow: hidden; */
             white-space: nowrap;
             overflow: hidden;
-            /* overflow-wrap: break-word; */
-            width: 342px;
+            max-width: 342px;
             text-overflow: ellipsis; 
-            /* -webkit-line-clamp: 1; */
-            
         } 
         .collection-list-item:first-child .collection-list-text{
-            /* display: inline-flex;
-            flex-direction: column;
-            gap: 8px */
-            /* width: 100%; */
-        }
-        .collection-list-header{
-            text-align: left;
         }
     }
-    @media screen and (min-width: 768px) and (max-width: 1439px) {
+    @media screen and (min-width: 1280px){
+        .collection-list-item:first-child .collection-list-header{
+            /* max-width: 345px; */
+        }
+        .collection-list{
+            gap:40px 20px;
+        }
+        .collection-list-item {
+            flex-basis: calc((100%-20*2)/3);
+        }
+    }
+
+    @media screen and (max-width: 1439px) {
+        .collection-list-item:first-child .collection-list-header{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis; 
+        } 
         
+    }
+    @media screen and (min-width: 1400px){
+
     }
