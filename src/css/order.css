@@ -198,6 +198,15 @@ body {
     width: 375px;
     height: 550px;
 }
+.backgraund-pic{
+    background-image:  url(../img/background-logo.pnj);
+position: absolute;
+background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 545px;
+    height: 484px;
+}
 
 
 
@@ -243,7 +252,8 @@ body {
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
-        padding: 0 32px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 
     .section-order {
@@ -295,7 +305,10 @@ body {
     font-weight: 400;
     }
 
-   
+   .order-img2{
+    display: flex;
+    justify-content: right;
+   }
 
 
 
@@ -338,7 +351,8 @@ body {
 
     .container {
         width: 1280px;
-        padding: 0 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .section-order {
@@ -373,6 +387,7 @@ body {
         display: flex;
         flex-direction: row-reverse;
         gap: 50px;
+        
     }
 
 
@@ -411,6 +426,9 @@ body {
 
     .order-title {  
             max-width: 666px;}
+    .order-wrap{
+            box-sizing: content-box;
+    }        
 
 
 
