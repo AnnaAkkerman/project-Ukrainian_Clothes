@@ -55,11 +55,14 @@
   .footer-item-first {
     flex-basis: 67px;
   }
+  .footer-item-second {
+    order: 0;
+  }
   .footer-text {
     width: 521px;
     font-size: 54px;
-    line-height: 1.18;
-    margin-top: 88px;
+    line-height: 1.19;
+    margin-top: 80px;
   }
   .footer-text-word {
     color: #ecd979;
