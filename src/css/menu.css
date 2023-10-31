@@ -1,23 +1,19 @@
 .mob-menu {
     width: 274px;
-    height: 812px;
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #ECD979;
     z-index: 1;
-    flex-direction: column;
-}
-
-.mob-menu {
     background-image: url(../img/menu/mob-ornament.png);
         background-repeat: no-repeat;
         background-position: bottom;
-}
+    }
 
-.container {
+.menu-container {
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
     padding: 20px 20px 0px 20px;
     margin-bottom: 186px;
 }
@@ -28,9 +24,6 @@
     width: 158px;
     height: 38px;
     padding: 12px 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
     border-radius: 15px;
     border: 1px solid rgba(28, 34, 37, 0.10);
    
@@ -60,16 +53,21 @@
     width: 36px;
     height: 36px;
     padding: 0;
-    
     background-color: #ECD979;
-   
-
-}
+    border: none;
+   }
 
 .menu-btn-icon {
     width: 36px;
     height: 36px;
     fill: #1C2225;
+}
+
+.menu-btn-item {
+    width: 44px;
+    height: 44px;
+    fill: #1C2225;
+    display: none;
 }
 
 .mob-menu-list {
@@ -88,6 +86,7 @@
 
 }
 
+
 .mob-menu-item:not(:last-child) {
     margin-bottom: 20px;
 }
@@ -97,34 +96,44 @@
     .mob-menu {
             width: 380px;
             height: 1024px;
-            
-            
-        }
-    .mob-menu {
             background-image: url(../img/menu/tablet-ornament.png);
-            background-repeat: no-repeat;
-            background-position: bottom;
-                }
+                background-repeat: no-repeat;
+                background-position: bottom;
+    }
 
-    .container {
+
+    .menu-container {
             display: flex;
             gap: 79px;
             padding: 20px 32px 0px 32px;
             margin-bottom: 223px;
-                                }
+    }
+    
+
     .phone-container {
-    
-            width: 158px;
-            height: 38px;
-            padding: 12px 20px;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            border-radius: 15px;
-            border: 1px solid rgba(28, 34, 37, 0.10);
-    
-    
-        }
+        width: 193px;
+        height: 48px;
+        padding: 14px 28px;
+    }
+        
+    .phone-link {
+        width: 137px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+
+    .menu-close-btn {
+        width: 44px;
+        height: 44px;
+        
+    }
+
+ .menu-btn-item {
+        display: block;
          
+    }
+
 
 }
