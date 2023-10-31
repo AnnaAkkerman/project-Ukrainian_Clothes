@@ -49,14 +49,14 @@
     }   
 }
 .collection-section {
-    background-image: url("../img/collection-img/mobile-collection-bg.png"); 
-    background-position: 0px 316px;
-    background-repeat: no-repeat;
-    background-size: 199px 177px;
+        background-image: url("../img/collection-img/mobile-collection-bg.png"); 
+        background-position: 0px 316px;
+        background-repeat: no-repeat;
+        background-size: 199px 177px;
 }
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .collection-section {
         background-image: url("../img/collection-img/mobile-collection-bg@2x.png"); 
     }
