@@ -85,6 +85,7 @@
             background-image: url("../img/collection-img/tab-collection-bg.png"); 
             padding: 0px 0.453px 0.334px 0px;
             background-size: 338px 300px;
+            background-position: 0px 271px;
         }
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -115,7 +116,7 @@
         }
         .collection-section {
             background-image: url("../img/collection-img/desc-1280-collection-bg.png"); 
-            background-position: 0px 316px;
+            background-position: 0px 291px;
             background-repeat: no-repeat;
         }
         @media (min-device-pixel-ratio: 2),
@@ -129,7 +130,7 @@
     @media screen and (min-width: 1400px){
         .collection-section {
             background-image: url("../img/collection-img/desc-1440-collection-bg.png"); 
-            background-position: 0px 316px;
+            background-position: 0px 301px;
             background-repeat: no-repeat;
         }
         @media (min-device-pixel-ratio: 2),
