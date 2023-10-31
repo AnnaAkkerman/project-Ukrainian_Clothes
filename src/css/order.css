@@ -7,7 +7,7 @@
   letter-spacing: -0.96px;
 }
 .order-span {
-  color: #ECD979;
+  color: #ecd979;
   font-size: 32px;
   font-weight: 500;
   line-height: 1.38;
@@ -39,7 +39,7 @@
   background-color: transparent;
   padding: 14px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #FCF9F9;
+  color: #fcf9f9;
   line-height: normal;
   letter-spacing: -0.28px;
   font-size: 14px;
@@ -51,14 +51,14 @@
 .order-comment-area:hover,
 .order-comment-area:focus,
 .order-comment-area:active {
-  color: #FCF9F9;
+  color: #fcf9f9;
 }
 .order-btn-input:focus,
 .order-btn-input:hover {
-  border-color: #ECD979;
+  border-color: #ecd979;
 }
 .order-btn-input {
-  color: #FCF9F9;
+  color: #fcf9f9;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -74,7 +74,7 @@
 .order-icon {
   top: 50%;
   left: 16px;
-  fill: #2E2F42;
+  fill: #2e2f42;
   transform: translateY(-50%, -50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -115,7 +115,7 @@
     margin: 0;
   }
   .img-first {
-    background-image: url(../img/order/order/girl-tab.jpg);
+    background-image: url(../img/order/girl-tab.jpg);
     max-width: 768px;
     height: 776px;
     margin-bottom: 100px;
@@ -186,7 +186,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .img-first {
-      background-image: url(../img/order/girl-pc2-x2.jpg);
+      background-image: url(../img/order/girl-pc-x2.jpg);
     }
   }
 }
