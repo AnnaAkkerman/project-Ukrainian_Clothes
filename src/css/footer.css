@@ -16,16 +16,17 @@
   line-height: 1.29;
   text-transform: uppercase;
 }
-.footer-item {
-  flex-wrap: wrap;
-  /* width: calc((100% - 40px) / 2); */
+.footer-item-first {
+  flex-basis: 116px;
 }
-.footer-link {
+.footer-item-second {
+  order: 2;
 }
+
 .footer-text {
   font-size: 44px;
   font-weight: 400;
-  line-height: 1.22;
+  line-height: 1.23;
   letter-spacing: -0.03em;
   padding-top: 40px;
 }
@@ -39,24 +40,26 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
-    padding: 0 32px;
+    padding: 40px;
   }
   .footer-wrap {
     background-image: url(../img/footer/footer-tab.png);
-    background-repeat: no-repeat;
-    background-position: right center;
+    background-position: right bottom;
   }
   .footer-list {
     display: flex;
     flex-wrap: nowrap;
     gap: 25px;
-    padding-top: 40px;
+    width: 478px;
+  }
+  .footer-item-first {
+    flex-basis: 67px;
   }
   .footer-text {
     width: 521px;
     font-size: 54px;
     line-height: 1.18;
+    margin-top: 88px;
   }
   .footer-text-word {
     color: #ecd979;
@@ -66,56 +69,28 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-  }
   .footer-wrap {
     background-image: url(../img/footer/footer-desktop-min.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-    padding-right: 259px;
-    padding-bottom: 104px;
+    background-position: right bottom;
   }
 
-  .footer-list {
-    padding-top: 40px;
-  }
-  .footer-item {
-  }
   .footer-text {
     font-size: 64px;
     line-height: 1.16;
     letter-spacing: -1.92px;
     padding-top: 117px;
     width: 754px;
-    height: 148px;
   }
   .footer-text-word {
     font-size: 64px;
-
     letter-spacing: -1.92px;
-    line-height: 1.18;
+    line-height: 1.16;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    width: 1440px;
-  }
   .footer-wrap {
     background-image: url(../img/footer/footer-desktop-max.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-  }
-
-  .footer-text {
-    width: 754px;
-    height: 148px;
-  }
-  .footer-container {
-  }
-  .footer-list {
-  }
-  .footer-item {
+    background-position: right;
   }
 }
