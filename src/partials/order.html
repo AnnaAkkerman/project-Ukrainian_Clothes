@@ -1,0 +1,37 @@
+<section class="section-order backgraund-pic">
+    <div class="img-first"></div>
+    <div class="container order-container">
+        <div class="order-wrap">
+            <div class="order-input-part">
+                <h2 class="order-title"><span class="order-span">Your order</span> is our priority: Personalized
+                    approach and quality of service</h2>
+                <form class="order-form">
+                    <div class="order-field">
+                        <label class="order-label" for="name"></label>
+                        <input class="order-input" type="name" pattern="[A-Za-z]{3-30}" name="name" id="name" required
+                            placeholder="Enter your full name" />
+                    </div>
+                    <div class="order-field">
+                        <label class="order-label" for="email">
+                            <input class="order-input" type="email" name="email" id="email" required
+                                placeholder="Enter your email" />
+                    </div>
+                    <div class="comment-order-field">
+                        <textarea class="order-comment-area" name="user-comment" placeholder="Comments"></textarea>
+                    </div>
+                    <button type="submit" class="order-btn-input">Send
+                        <svg class="order-icon" width="26" height="10">
+                            <use href="./img/order/order.svg#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <picture class="order-img2">
+                <source srcset="./img/order/order-pc2.jpg 1x, ./img/order/order-pc2-x2.jpg 2x" media="(min-width: 1440px)">
+                <source srcset="./img/order/order-pc.jpg 1x, ./img/order/order-pc-x2.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="./img/order/order-tab.jpg 1x, ./img/order/order-tab-x2.jpg 2x" media="(min-width: 768px)">
+                <img class="section-order-img2" src="./img/order/order-tab.jpg" alt="Girl" width="638" height="521">
+            </picture>
+        </div>
+    </div>
+</section>
