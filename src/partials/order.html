@@ -1,55 +1,38 @@
-<section class="section-order">
-
-    <div class="container backgraund-pic">
-
-        <div class="img-first">
-
-        </div>
-
-        <div class="order-wrap order-input-part ">
+<section class="section-order backgraund-pic">
+    <div class="img-first"></div>
+    <div class="container order-container">
+        <div class="order-wrap">
             <div class="order-input-part">
                 <h2 class="order-title"><span class="order-span">Your order</span> is our priority: Personalized
                     approach and quality of service</h2>
                 <form class="order-form">
                     <div class="order-field">
                         <label class="order-label" for="name"></label>
-                        <input class="order-input" type="name" pattern="[A-Za-z]{3-30}" name="name" id="name"
+                        <input class="order-input" type="name" pattern="[A-Za-z]{3-30}" name="name" id="name" required
                             placeholder="Enter your full name" />
-
                     </div>
-
                     <div class="order-field">
                         <label class="order-label" for="email">
-                            <input class="order-input" type="email"  name="email" id="email"
+                            <input class="order-input" type="email" name="email" id="email" required
                                 placeholder="Enter your email" />
                     </div>
-
                     <div class="comment-order-field">
-                        <label class="order-label" for="text">
-                            <textarea class="order-comment-area"  type="submit" name="user-comment" id="user-comment"
-                                placeholder="Comments"></textarea>
-
+                        <textarea class="order-comment-area" name="user-comment" placeholder="Comments"></textarea>
                     </div>
-
                     <button type="submit" class="order-btn-input">Send
                         <svg class="order-icon" width="26" height="10">
                             <use href="./img/icons.svg#icon-arrow"></use>
-
-
-
                         </svg>
                     </button>
+                </form>
             </div>
-            
-            </form>
             <picture class="order-img2">
                 <source srcset="./img/order-pc2.jpg 1x, ./img/order-pc2-x2.jpg 2x" media="(min-width: 1440px)">
                 <source srcset="./img/order-pc.jpg 1x, ./img/order-pc-x2.jpg 2x" media="(min-width: 1280px)">
                 <source srcset="./img/order-tab.jpg 1x, ./img/order-tab-x2.jpg 2x" media="(min-width: 768px)">
-                <!-- <source srcset="./image/girl-tel.jpg 1x, ./image/girl-tel-x2.jpg 2x" media="(min-width: 375px)"> -->
+                <source srcset="./img/girl-tel.jpg 1x, ./img/girl-tel-x2.jpg 2x" media="(min-width: 375px)">
                 <img class="section-order-img2" src="./img/order-tab.jpg" alt="Girl" width="638" height="521">
             </picture>
         </div>
-
     </div>
 </section>
