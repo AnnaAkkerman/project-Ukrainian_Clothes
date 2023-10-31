@@ -82,7 +82,7 @@
   display: none;
 }
 .img-first {
-  background-image: url(../img/girl-tel.jpg);
+  background-image: url(../img/order/girl-tel.jpg);
   margin: 0 auto;
   max-width: 375px;
   background-repeat: no-repeat;
@@ -95,7 +95,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .img-first {
-    background-image: url(../img/girl-tel-x2.jpg);
+    background-image: url(../img/order/girl-tel-x2.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -115,7 +115,7 @@
     margin: 0;
   }
   .img-first {
-    background-image: url(../img/girl-tab.jpg);
+    background-image: url(../img/order/order/girl-tab.jpg);
     max-width: 768px;
     height: 776px;
     margin-bottom: 100px;
@@ -142,11 +142,11 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .img-first {
-      background-image: url(../img/girl-tab-x2.jpg);
+      background-image: url(../img/order/girl-tab-x2.jpg);
     }
   }
   .backgraund-pic {
-    background-image: url(../img/background-logo.png);
+    background-image: url(../img/order/background-logo.png);
     background-repeat: no-repeat;
     background-position: left bottom;
   }
@@ -157,7 +157,7 @@
     height: 521px;
   }
   .img-first {
-    background-image: url(../img/girl-pc.jpg);
+    background-image: url(../img/order/girl-pc.jpg);
     max-width: 1282px;
     margin-bottom: 150px;
   }
@@ -170,13 +170,13 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .img-first {
-      background-image: url(../img/girl-pc2-x2.jpg);
+      background-image: url(../img/order/girl-pc2-x2.jpg);
     }
   }
 }
 @media screen and (min-width: 1440px) {
   .img-first {
-    background-image: url(../img/girl-pc2.jpg);
+    background-image: url(../img/order/girl-pc2.jpg);
     max-width: 1440px;
   }
   .order-title {
@@ -186,7 +186,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .img-first {
-      background-image: url(../img/girl-pc2-x2.jpg);
+      background-image: url(../img/order/girl-pc2-x2.jpg);
     }
   }
 }
