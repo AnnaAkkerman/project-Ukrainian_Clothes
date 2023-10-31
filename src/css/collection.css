@@ -45,7 +45,7 @@
     text-overflow: ellipsis;
   }
 }
-.collection-section {
+.collection-container { 
   background-image: url('../img/collection-img/mobile-collection-bg.png');
   background-position: 0px 316px;
   background-repeat: no-repeat;
@@ -80,6 +80,7 @@
   }
   .collection-section {
     background-image: url('../img/collection-img/tab-collection-bg.png');
+    background-repeat: no-repeat;
     background-position: 0px 271px;
   }
   @media (min-device-pixel-ratio: 2),
