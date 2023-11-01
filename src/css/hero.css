@@ -3,7 +3,7 @@
 }
 
 .title-container {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .hero-title {
@@ -40,6 +40,7 @@
   gap: 10px;
   font-size: 14px;
   font-weight: 600;
+  line-height: normal;
   letter-spacing: -0.04em;
   text-transform: uppercase;
   padding: 14px 36px;
@@ -62,10 +63,6 @@
   display: none;
 }
 
-.elips-img {
-  display: none;
-}
-
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 80px;
@@ -76,14 +73,19 @@
   }
 
   .title-container {
-    padding-top: 26px;
+    margin-top: 26px;
   }
 
   .hero-title {
     max-width: 549px;
     margin-bottom: 40px;
     font-size: 54px;
-    line-height: 1.18;
+    line-height: 1.19;
+  }
+
+  .hero-link {
+    padding: 14px 39px;
+    font-size: 16px;
   }
 
   .hero-link-container {
@@ -133,7 +135,7 @@
   }
 
   .title-container {
-    padding-top: 94px;
+    margin-top: 94px;
   }
 
   .hero-title {
@@ -154,14 +156,14 @@
     max-width: 632px;
     font-size: 64px;
     line-height: 1.16;
+    letter-spacing: -0.02em;
   }
 
   .star-container {
     top: 66px;
-    right: 0px;
   }
 
   .title-container {
-    padding-top: 66px;
+    margin-top: 66px;
   }
 }
