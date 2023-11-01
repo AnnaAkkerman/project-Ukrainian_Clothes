@@ -73,7 +73,7 @@
   }
 
   .title-container {
-    margin-top: 26px;
+    padding-top: 26px;
   }
 
   .hero-title {
@@ -135,7 +135,7 @@
   }
 
   .title-container {
-    margin-top: 94px;
+    padding-top: 94px;
   }
 
   .hero-title {
@@ -164,6 +164,6 @@
   }
 
   .title-container {
-    margin-top: 66px;
+    padding-top: 66px;
   }
 }
