@@ -2,7 +2,20 @@
   background-image: url(../img/footer/footer-mob.png);
   background-repeat: no-repeat;
   background-position: bottom;
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
 }
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .footer-wrap {
+    background-image: url(../img/footer/footer-mob-2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 375px 212px;
+  }
+}
+
 .footer-container {
   padding-top: 40px;
   padding-bottom: 292px;
@@ -16,6 +29,15 @@
   line-height: 1.29;
   text-transform: uppercase;
 }
+
+.footer-item {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-item:hover,
+.footer-item:focus {
+  color: #ecd979;
+}
 .footer-item-first {
   flex-basis: 116px;
 }
@@ -28,7 +50,7 @@
   font-weight: 400;
   line-height: 1.23;
   letter-spacing: -0.03em;
-  padding-top: 40px;
+  margin-top: 40px;
 }
 .footer-text-word {
   color: #ecd979;
@@ -40,12 +62,21 @@
 
 @media screen and (min-width: 768px) {
   .footer-container {
-    padding-top: 40px;
     padding-bottom: 40px;
   }
   .footer-wrap {
     background-image: url(../img/footer/footer-tab.png);
     background-position: right bottom;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .footer-wrap {
+      background-image: url(../img/footer/footer-tab-2x.png);
+      background-position: right bottom;
+      background-size: 174px 370px;
+    }
   }
   .footer-list {
     display: flex;
@@ -78,11 +109,20 @@
     background-position: right bottom;
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .footer-wrap {
+      background-image: url(../img/footer/footer-desktop-min-2x.png);
+      background-position: right bottom;
+      background-size: 336px 363px;
+    }
+  }
   .footer-text {
     font-size: 64px;
     line-height: 1.16;
     letter-spacing: -1.92px;
-    padding-top: 117px;
+    margin-top: 117px;
     width: 754px;
   }
   .footer-text-word {
@@ -96,5 +136,14 @@
   .footer-wrap {
     background-image: url(../img/footer/footer-desktop-max.png);
     background-position: right;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .footer-wrap {
+      background-image: url(../img/footer/footer-desktop-max-2x.png);
+      background-position: right;
+      background-size: 496px 363px;
+    }
   }
 }
