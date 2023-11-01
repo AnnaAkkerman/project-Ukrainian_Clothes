@@ -2,6 +2,7 @@
   background-image: url(../img/footer/footer-mob.png);
   background-repeat: no-repeat;
   background-position: bottom;
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
 }
 
 @media (min-device-pixel-ratio: 2),
