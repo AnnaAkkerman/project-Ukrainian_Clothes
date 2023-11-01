@@ -45,7 +45,7 @@
       text-overflow: ellipsis;
     }
   }
-  .collection-container {
+  .collection {
     background-image: url('../img/collection-img/mobile-collection-bg.png');
     background-position: 0px 316px;
     background-repeat: no-repeat;
@@ -53,9 +53,9 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .collection-container {
+    .collection {
       background-image: url('../img/collection-img/mobile-collection-bg@2x.png');
-      background-size: 20%;
+      background-size: 72px 177px;
     }
   }
   @media screen and (min-width: 768px) {
@@ -78,16 +78,16 @@
     .collection-list-item:first-child .collection-list-header {
       width: 342px;
     }
-    .collection-container {
+    .collection {
       background-image: url('../img/collection-img/tab-collection-bg.png');
       background-position: 0px 271px;
     }
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      .collection-container {
+      .collection {
         background-image: url('../img/collection-img/tab-collection-bg@2x.png');
-        background-size: 15%;
+        background-size: 114px 300px;
       }
     }
   }
@@ -112,30 +112,30 @@
     .collection-container {
       padding-top: 70px;
     }
-    .collection-container {
+    .collection {
       background-image: url('../img/collection-img/desc-1280-collection-bg.png');
       background-position: 0px 291px;
     }
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      .collection-container {
+      .collection {
         background-image: url('../img/collection-img/desc-1280-collection-bg@2x.png');
-        background-size: 13%;
+        background-size: 169px 300px;
       }
     }
   }
   @media screen and (min-width: 1440px) {
-    .collection-container {
+    .collection {
       background-image: url('../img/collection-img/desc-1440-collection-bg.png');
       background-position: 0px 301px;
     }
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      .collection-container {
+      .collection {
         background-image: url('../img/collection-img/desc-1440-collection-bg@2x.png');
-        background-size: 11.5%;
+        background-size: 169px 300px;
       }
     }
   }
