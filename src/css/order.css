@@ -29,7 +29,10 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.28px;
-  margin-bottom: 40px;
+  resize: none;
+}
+.comment-order-field{
+    margin-bottom: 40px;
 }
 .order-input {
   border-radius: 4px;
