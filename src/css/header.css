@@ -105,6 +105,12 @@
     border: 1px solid rgba(252, 249, 249, 0.1);
     display: block;
     font-style: normal;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-phone-container:hover,
+  .header-phone-container:focus {
+    border-color: #ecd979;
   }
 
   .header-phone-link {
