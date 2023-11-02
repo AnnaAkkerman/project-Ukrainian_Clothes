@@ -2,10 +2,6 @@
   padding-top: 60px;
 }
 
-.title-container {
-  margin-bottom: 40px;
-}
-
 .hero-title {
   font-size: 44px;
   font-weight: 400;
@@ -61,6 +57,12 @@
 
 .map-img {
   display: none;
+}
+
+@media screen and (max-width: 1279px) {
+  .title-container {
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -135,7 +137,6 @@
   }
 
   .title-container {
-    margin-bottom: 0;
     padding-top: 94px;
   }
 
