@@ -2,11 +2,11 @@
   background-image: url('../img/about/elements-mob.png');
   background-repeat: no-repeat;
   background-position: right bottom;
+  padding-top: 80px;
+  padding-bottom: 62px;
 }
 
 .about-us-container {
-  padding-top: 80px;
-  padding-bottom: 62px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -56,11 +56,11 @@
 @media screen and (min-width: 768px) {
   .about-us-section {
     background-image: url('../img/about/elements-tab.png');
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
 
   .about-us-container {
-    padding-top: 100px;
-    padding-bottom: 50px;
     gap: 40px;
   }
 
@@ -69,7 +69,6 @@
     (min-resolution: 2dppx) {
     .about-us-section {
       background-image: url('../img/about/elements-tab@2x.png');
-      /* background-size: 48%; */
       background-size: 369px 484px;
     }
   }
@@ -86,6 +85,9 @@
 
 @media screen and (min-width: 1280px) {
   .about-us-section {
+    padding-top: 150px;
+    padding-bottom: 80px;
+
     background-image: url('../img/about/elements-desk1280.png');
   }
 
@@ -94,8 +96,6 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding-top: 150px;
-    padding-bottom: 80px;
   }
 
   @media (min-device-pixel-ratio: 2),
