@@ -1,8 +1,11 @@
 .header-container {
-  padding-top: 20px;
   display: flex;
   align-items: center;
   height: 72px;
+}
+
+header {
+  padding-top: 20px;
 }
 
 .header-logo {
@@ -26,7 +29,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .header-social-list {
+  .header-address {
     margin-right: 20px;
   }
 }
