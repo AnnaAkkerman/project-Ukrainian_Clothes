@@ -1,10 +1,11 @@
 .header-container {
   display: flex;
   align-items: center;
-  height: 72px;
+  height: 52px;
+  justify-content: space-between;
 }
 
-header {
+.header {
   padding-top: 20px;
 }
 
@@ -20,6 +21,15 @@ header {
 .header-social-list {
   display: flex;
   gap: 12px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
 }
 
 @media screen and (max-width: 767px) {
@@ -103,6 +113,7 @@ header {
   }
 
   .header-phone-container {
+    height: 48px;
     padding: 14px 28px;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
