@@ -62,10 +62,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer-container {
-    padding-bottom: 40px;
-  }
   .footer-wrap {
+    padding-bottom: 40px;
     background-image: url(../img/footer/footer-tab.png);
     background-position: right bottom;
   }
