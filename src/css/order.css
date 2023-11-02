@@ -3,7 +3,7 @@
   font-weight: 500;
   line-height: 1.38;
   margin-bottom: 40px;
-  max-width: 335px;
+  width: 335px;
   letter-spacing: -0.96px;
 }
 .order-span {
@@ -32,44 +32,50 @@
   margin-bottom: 40px;
 }
 .order-input {
-  border-radius: 4px;
   border: 1px rgba(252, 249, 249, 0.1) solid;
   width: 335px;
   border-radius: 15px;
   background-color: transparent;
   padding: 14px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #fcf9f9;
-  line-height: normal;
+  color: rgba(252, 249, 249, 0.5);
   letter-spacing: -0.28px;
   font-size: 14px;
   font-weight: 400;
 }
-.order-input:focus-within {
+.order-input:hover,
+.order-input:focus,
+.order-input:active {
   border: 1px solid rgba(252, 249, 249, 0.6);
+  color: #fcf9f9;
 }
 .order-comment-area:hover,
 .order-comment-area:focus,
 .order-comment-area:active {
   color: #fcf9f9;
 }
-.order-btn-input:focus,
-.order-btn-input:hover {
-  border-color: #ecd979;
-}
+
 .order-btn-input {
   color: #fcf9f9;
   font-size: 14px;
   font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.56px;
   text-transform: uppercase;
   background-color: transparent;
   padding: 14px 36px;
   border: 1px rgba(252, 249, 249, 0.1) solid;
   border-radius: 15px;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   display: flex;
   margin: 0 auto;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.order-btn-input:focus,
+.order-btn-input:hover {
+  border-color: #ecd979;
 }
 .order-icon {
   top: 50%;
@@ -80,6 +86,9 @@
 }
 .order-img2 {
   display: none;
+}
+.section-order-img2 {
+  border-radius: 4px;
 }
 .img-first {
   background-image: url(../img/order/girl-tel.jpg);
@@ -101,7 +110,7 @@
 @media screen and (min-width: 768px) {
   .order-title {
     font-size: 44px;
-    max-width: 542px;
+    width: 542px;
     line-height: 1.32;
     letter-spacing: -1.32px;
   }
@@ -112,6 +121,9 @@
   }
   .order-btn-input {
     width: 168px;
+    padding: 14px 39px;
+    font-size: 16px;
+    letter-spacing: -0.64px;
     margin: 0;
   }
   .img-first {
@@ -127,8 +139,7 @@
     width: 508px;
   }
   .order-img2 {
-    display: flex;
-    justify-content: right;
+    display: block;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     .order-container {
@@ -136,6 +147,7 @@
     }
     .order-img2 {
       margin-top: 100px;
+      padding-left: 66px;
     }
   }
   @media (min-device-pixel-ratio: 2),
@@ -146,15 +158,22 @@
     }
   }
   .backgraund-pic {
-    background-image: url(../img/order/background-logo.png);
+    background-image: url(../img/order/background-logo-tab.png);
     background-repeat: no-repeat;
     background-position: left bottom;
   }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .backgraund-pic {
+      background-image: url(../img/order/background-logo-tab@2x.png);
+      background-size: 323px 484px;
+    }
+  }
 }
 @media screen and (min-width: 1280px) {
-  .order-img2 {
-    width: 524px;
-    height: 521px;
+  .order-container {
+    padding-left: 64px;
   }
   .img-first {
     background-image: url(../img/order/girl-pc.jpg);
@@ -173,20 +192,46 @@
       background-image: url(../img/order/girl-pc2-x2.jpg);
     }
   }
+  .backgraund-pic {
+    background-image: url(../img/order/background-logo-desk1280.png);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .backgraund-pic {
+      background-image: url(../img/order/background-logo-desk1280@2x.png);
+      background-size: 289px 484px;
+    }
+  }
 }
 @media screen and (min-width: 1440px) {
+  .order-container {
+    padding-left: 100px;
+  }
+
   .img-first {
     background-image: url(../img/order/girl-pc2.jpg);
     max-width: 1440px;
   }
   .order-title {
-    max-width: 666px;
+    width: 666px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .img-first {
       background-image: url(../img/order/girl-pc-x2.jpg);
+    }
+  }
+  .backgraund-pic {
+    background-image: url(../img/order/background-logo-desk1440.png);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .backgraund-pic {
+      background-image: url(../img/order/background-logo-desk1440@2x.png);
+      background-size: 325px 484px;
     }
   }
 }

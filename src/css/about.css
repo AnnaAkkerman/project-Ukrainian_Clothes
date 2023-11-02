@@ -49,6 +49,10 @@
   letter-spacing: -0.56px;
 }
 
+.about-us-photo {
+  border-radius: 4px;
+}
+
 @media screen and (min-width: 768px) {
   .about-us-section {
     background-image: url('../img/about/elements-tab.png');
