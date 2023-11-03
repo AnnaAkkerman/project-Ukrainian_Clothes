@@ -9,10 +9,6 @@
   padding-top: 20px;
 }
 
-.header-logo {
-  margin-right: 87px;
-}
-
 .header-nav-list,
 .header-phone-container {
   display: none;
@@ -30,6 +26,18 @@
 
 .header-nav {
   display: flex;
+  margin-right: 87px;
+}
+
+@media screen and (max-width: 374px) {
+  .header-logo {
+    width: 44px;
+    height: 39px;
+  }
+
+  .header-nav {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -68,7 +76,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header-logo {
+  .header-nav {
     margin-right: 440px;
   }
 

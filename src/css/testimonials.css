@@ -16,6 +16,13 @@
   font-weight: 600;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 374px) {
+  .description {
+    width: 262px;
+  }
+}
+
 .description {
   margin-top: 8px;
   width: 291px;
@@ -43,6 +50,13 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 374px) {
+  .description {
+    width: 262px;
+  }
+}
+
 @media screen and (max-width: 1279px) {
   .testimonial-list-item:nth-child(3) {
     display: none;
