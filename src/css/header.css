@@ -139,7 +139,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .header-container {
+  .header {
     padding-top: 18px;
   }
   .header-nav {
