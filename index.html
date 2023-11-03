@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/project-Ukrainian_Clothes/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ukrainian Clothes" />
     <title>Vyshyvanka Vibes</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
@@ -16,8 +17,8 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/project-Ukrainian_Clothes/assets/index-bf0559d0.js"></script>
-    <link rel="stylesheet" href="/project-Ukrainian_Clothes/assets/index-cfc95886.css">
+    <script type="module" crossorigin src="/project-Ukrainian_Clothes/assets/index-c0a5911c.js"></script>
+    <link rel="stylesheet" href="/project-Ukrainian_Clothes/assets/index-f2732e0f.css">
   </head>
   <body>
     <header class="header">
@@ -57,6 +58,7 @@
             <a
               href="https://www.facebook.com/goITclub/"
               class="header-social-link"
+              aria-label="enter facebook page"
             >
               <div class="social-link-container">
                 <svg class="icon header-social-icon" width="28" height="28">
@@ -69,6 +71,7 @@
             <a
               href="https://www.instagram.com/goitclub/"
               class="header-social-link"
+              aria-label="enter instagram page"
             >
               <div class="social-link-container">
                 <svg class="icon header-social-icon" width="28" height="28">
@@ -78,7 +81,11 @@
             </a>
           </li>
           <li class="header-social-item">
-            <a href="https://www.youtube.com/c/GoIT" class="header-social-link">
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              class="header-social-link"
+              aria-label="enter youtube page"
+            >
               <div class="social-link-container">
                 <svg class="icon header-social-icon" width="28" height="28">
                   <use href="/project-Ukrainian_Clothes/assets/icons-e03dbfea.svg#icon-logo-youtube"></use>
@@ -88,7 +95,11 @@
           </li>
         </ul>
       </address>
-      <button type="button" class="menu-open-btn">
+      <button
+        type="button"
+        class="menu-open-btn"
+        aria-labelledby="button-open-menu"
+      >
         <svg class="icon menu-open-icon" width="36" height="24">
           <use href="/project-Ukrainian_Clothes/assets/icons-e03dbfea.svg#icon-menu-button-mob"></use>
         </svg>
@@ -102,7 +113,11 @@
     <div class="phone-container">
       <a class="phone-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
     </div>
-    <button type="button" class="menu-close-btn">
+    <button
+      type="button"
+      class="menu-close-btn"
+      aria-labelledby="button-close-menu"
+    >
       <svg class="menu-btn-icon" width="36" height="36">
         <use href="/project-Ukrainian_Clothes/assets/icons-e03dbfea.svg#icon-mob-close"></use>
       </svg>
@@ -189,6 +204,10 @@
         <source
           srcset="/project-Ukrainian_Clothes/assets/img-map-1x-tab-1b039ba3.jpg 1x, /project-Ukrainian_Clothes/assets/img-map-2x-tab-29535f37.jpg 2x"
           media="(min-width: 768px)"
+        />
+        <source
+          srcset="/project-Ukrainian_Clothes/assets/img-map-1x-tab-1b039ba3.jpg 1x, /project-Ukrainian_Clothes/assets/img-map-2x-tab-29535f37.jpg 2x"
+          media="(max-width: 767px)"
         />
 
         <img
@@ -459,44 +478,80 @@
 </section>
 
       <section class="section-order backgraund-pic">
-    <div class="img-first"></div>
-    <div class="container order-container">
-        <div class="order-wrap">
-            <div class="order-input-part">
-                <h2 class="order-title" id="order"><span class="order-span">Your order</span> is our priority: Personalized
-                    approach and quality of service</h2>
-                <form class="order-form">
-                    <div class="order-field">
-                        <label class="order-label" for="name"></label>
-                        <input class="order-input" type="name" pattern="[A-Za-z]{3-30}" name="name" id="name" required
-                            placeholder="Enter your full name" />
-                    </div>
-                    <div class="order-field">
-                        <label class="order-label" for="email">
-                            <input class="order-input" type="email" name="email" id="email" required
-                                placeholder="Enter your email" />
-                    </div>
-                    <div class="comment-order-field">
-                        <textarea class="order-comment-area" name="user-comment" placeholder="Comments"></textarea>
-                    </div>
-                    <button type="submit" class="order-btn-input">Send
-                        <svg class="icon-arrow" width="26" height="17">
-                            <use href="/project-Ukrainian_Clothes/assets/icons-e03dbfea.svg#icon-arrow2"></use>
-                        </svg>
-                    </button>
-                </form>
-            </div>
-            <picture class="order-img2">
-                <source srcset="/project-Ukrainian_Clothes/assets/order-pc2-7b4145e8.jpg 1x, /project-Ukrainian_Clothes/assets/order-pc2-x2-66586bb9.jpg 2x" media="(min-width: 1440px)">
-                <source srcset="/project-Ukrainian_Clothes/assets/order-pc-9d58f251.jpg 1x, /project-Ukrainian_Clothes/assets/order-pc2-x2-66586bb9.jpg 2x" media="(min-width: 1280px)">
-                <source srcset="/project-Ukrainian_Clothes/assets/order-tab-cfd20274.jpg 1x, /project-Ukrainian_Clothes/assets/order-tab-x2-ce659362.jpg 2x" media="(min-width: 768px)">
-                <img class="section-order-img2" src="/project-Ukrainian_Clothes/assets/order-tab-cfd20274.jpg" alt="Girl" width="638" height="521">
-            </picture>
-        </div>
+  <div class="img-first"></div>
+  <div class="container order-container">
+    <div class="order-wrap">
+      <div class="order-input-part">
+        <h2 class="order-title" id="order">
+          <span class="order-span">Your order</span> is our priority:
+          Personalized approach and quality of service
+        </h2>
+        <form class="order-form">
+          <div class="order-field">
+            <label class="order-label" for="name"></label>
+            <input
+              class="order-input"
+              type="text"
+              pattern="[A-Za-z]{3-30}"
+              name="name"
+              id="name"
+              required
+              placeholder="Enter your full name"
+            />
+          </div>
+          <div class="order-field">
+            <label class="order-label" for="email"></label>
+            <input
+              class="order-input"
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="comment-order-field">
+            <textarea
+              class="order-comment-area"
+              name="user-comment"
+              placeholder="Comments"
+            ></textarea>
+          </div>
+          <button type="submit" class="order-btn-input">
+            Send
+            <svg class="icon-arrow" width="26" height="17">
+              <use href="/project-Ukrainian_Clothes/assets/icons-e03dbfea.svg#icon-arrow2"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+      <picture class="order-img2">
+        <source
+          srcset="/project-Ukrainian_Clothes/assets/order-pc2-7b4145e8.jpg 1x, /project-Ukrainian_Clothes/assets/order-pc2-x2-66586bb9.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/project-Ukrainian_Clothes/assets/order-pc-9d58f251.jpg 1x, /project-Ukrainian_Clothes/assets/order-pc2-x2-66586bb9.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/project-Ukrainian_Clothes/assets/order-tab-cfd20274.jpg 1x, /project-Ukrainian_Clothes/assets/order-tab-x2-ce659362.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <img
+          class="section-order-img2"
+          src="/project-Ukrainian_Clothes/assets/order-tab-cfd20274.jpg"
+          alt="Girl"
+          width="638"
+          height="521"
+        />
+      </picture>
     </div>
+  
 </section>
+
       <section class="section-five" id="testimonials">
-  <div class="container testimonials">
+  <div class="container">
     <h2 class="section-title">Testimonials</h2>
     <ul class="testimonial-list">
       <li class="testimonial-list-item">
