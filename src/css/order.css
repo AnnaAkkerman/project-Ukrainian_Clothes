@@ -3,7 +3,7 @@
   font-weight: 500;
   line-height: 1.38;
   margin-bottom: 40px;
-  width: 335px;
+  max-width: 335px;
   letter-spacing: -0.96px;
 }
 .order-span {
@@ -13,6 +13,9 @@
   line-height: 1.38;
   letter-spacing: -0.96px;
 }
+.order-form {
+  max-width: 335px;
+}
 .order-field {
   margin-bottom: 20px;
 }
@@ -20,7 +23,7 @@
   color: rgba(252, 249, 249, 0.5);
   border-radius: 8px;
   border: 1px rgba(252, 249, 249, 0.1) solid;
-  width: 335px;
+  width: 100%;
   height: 196px;
   background-color: transparent;
   padding: 14px 16px;
@@ -35,8 +38,8 @@
   margin-bottom: 40px;
 }
 .order-input {
+  width: 100%;
   border: 1px rgba(252, 249, 249, 0.1) solid;
-  width: 335px;
   border-radius: 15px;
   background-color: transparent;
   padding: 14px 16px;
@@ -106,7 +109,7 @@
 @media screen and (min-width: 768px) {
   .order-title {
     font-size: 44px;
-    width: 542px;
+    max-width: 542px;
     line-height: 1.32;
     letter-spacing: -1.32px;
   }
@@ -115,6 +118,10 @@
     line-height: 1.32;
     letter-spacing: -1.32px;
   }
+  .order-form {
+    max-width: 508px;
+  }
+
   .order-btn-input {
     width: 168px;
     padding: 14px 39px;
@@ -132,7 +139,6 @@
   .order-comment-area {
     font-size: 16px;
     letter-spacing: -0.32px;
-    width: 508px;
   }
   .order-img2 {
     display: block;
@@ -141,6 +147,7 @@
     .section-order {
       padding-bottom: 79px;
     }
+
     .order-img2 {
       margin-top: 100px;
       padding-left: 66px;
@@ -181,6 +188,10 @@
     flex-direction: row-reverse;
     gap: 50px;
   }
+  .order-img2 {
+    width: 524px;
+  }
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -210,7 +221,7 @@
     max-width: 1440px;
   }
   .order-title {
-    width: 666px;
+    max-width: 666px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),

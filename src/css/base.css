@@ -5,9 +5,17 @@ body {
 }
 
 .container {
+  width: 320px;
   margin: 0 auto;
-  width: 375px;
-  padding: 0 20px;
+  padding: 0 10px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    margin: 0 auto;
+    width: 375px;
+    padding: 0 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {

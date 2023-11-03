@@ -40,7 +40,6 @@
 }
 .collection-list-item:first-child .collection-list-header {
   white-space: nowrap;
-  width: 335px;
 }
 @media not screen and (min-width: 1440px) {
   .collection-list-item:first-child .collection-list-header {
@@ -95,9 +94,9 @@
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
-  .collection-section>.container {
-  width: 1102px;
-}
+  .collection-section > .container {
+    width: 1102px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .collection-section {
